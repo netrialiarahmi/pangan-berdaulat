@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.sidebar.header("📂 Menu")
 # Konfigurasi Halaman
 st.set_page_config(
     page_title="Dashboard Data Pangan",
