@@ -7,9 +7,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# Sidebar Header
-st.sidebar.header("📂 Menu")
-
 # Konten Halaman Utama
 st.title("📊 Dashboard Data Pangan")
 st.markdown("""
