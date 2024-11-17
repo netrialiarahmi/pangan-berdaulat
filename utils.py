@@ -4,9 +4,9 @@ import pandas as pd
 @st.cache_data
 def load_data(file):
     if file.name.endswith('.csv'):
-        df = pd.read_csv(file)
+        df = pd.read_csv(file, encoding='utf-8', header=1)
     elif file.name.endswith('.xlsx'):
-        df = pd.read_excel(file)
+        df = pd.read_excel(file, header=1)
     else:
         st.error('Format file tidak didukung.')
         return None
