@@ -1,0 +1,11 @@
+streamlit
+pandas
+torch
+torchvision
+Pillow
+openai
+streamlit_option_menu
+matplotlib
+openpyxl
+seaborn
+plotly==5.15.0
